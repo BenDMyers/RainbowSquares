@@ -44,7 +44,7 @@ The `recursive()` method, however, solves the problem recursively by calling the
 public void recursive(Graphics g, int s, int i)
 {
   // Generates random color and sets the graphics context to that color
-  Color c = new Color((int)(255*Math.random()), (int)(255*Math.random()), (int)(255*Math.random()));
+  Color c = new Color(r.nextInt(256), r.nextInt(256), r.nextInt(256));
   g.setColor(c);
     	
   // Here, i is used as the offset, to nudge the square 1px by 1px closer to the center than the square before it
