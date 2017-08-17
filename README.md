@@ -2,9 +2,9 @@
 #### *A project created to demonstrate the structure of iterative and recursive code doing the same thing.*
  
  
-The interesting code is located in [RainbowSquaresPanel.java](https://github.com/BenDMyers/RainbowSquares/blob/master/RainbowSquaresPanel.java), which generates concentric squares of random colors either iteratively or recursively. The `iterative()` method solves the problem using a for-loop
+The interesting code is located in [`RainbowSquaresPanel.java`](https://github.com/BenDMyers/RainbowSquares/blob/master/RainbowSquaresPanel.java), which generates concentric squares of random colors either iteratively or recursively. The `iterative()` method solves the problem using a for-loop
 
-```
+```java
 /**
  * Generates rainbow squares iteratively.
  * @param g the graphics context
@@ -34,7 +34,7 @@ public void iterative(Graphics g, int s)
 
 The `recursive()` method, however, solves the problem recursively by calling the `recursive()` method on a smaller subset of the problem. 
 
-```
+```java
 /**
  * Generates rainbow squares recursively.
  * @param g the graphics context
